@@ -156,6 +156,30 @@ Vue.component('mon-step', {
     }
 });
 
+Vue.directive('shake', function(el, binding) {
+    let inHandler = () => {
+        let elementToShake = binding.value();
+        if(elementToShake != null) {
+            $(elementToShake).addClass('animated shake');
+            if(binding.modifiers.infinite === true) {
+                $(elementToShake).addClass('infinite');
+            }
+        }
+    };
+    let outHandler = () => {
+        let elementToShake = binding.value();
+        if(elementToShake != null) {
+            $(elementToShake).removeClass('animated infinite shake');
+        }
+    };
+
+    let jqueryEl = $(el);
+    jqueryEl.off('mouseenter', inHandler);
+    jqueryEl.on('mouseenter', inHandler);
+    jqueryEl.off('mouseleave', outHandler);
+    jqueryEl.on('mouseleave', outHandler);
+});
+
 new Vue({
     template: '#js-form-simu-pret-tpl',
     el: '#js-form-simu-pret',
@@ -184,6 +208,13 @@ new Vue({
                 this.$refs.multiStep.completeCurrentStep();
             } catch(e) {
                 this.error = e;
+            }
+        },
+        getElementToShake: function() {
+            if(this.email == null) {
+                return this.$refs.email.$el;
+            } else {
+                return null;
             }
         }
     }

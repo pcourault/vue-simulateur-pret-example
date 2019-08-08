@@ -54,11 +54,14 @@
                             <div class="field">
                                 <mon-input v-model="email"
                                            placeholder="Email"
-                                           mask="email" />
+                                           mask="email"
+                                           ref="email"
+                                           @keypress.native.enter="simulate"
+                                                />
                             </div>
                         </div>
                         <div class="ui basic segment">
-                            <button class="ui primary button" @click="simulate">
+                            <button class="ui primary button" @click="simulate" v-shake.infinite="getElementToShake">
                                 Simuler
                             </button>
                         </div>
