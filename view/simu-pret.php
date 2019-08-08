@@ -8,20 +8,16 @@
     <script type="text/x-template" id="js-form-simu-pret-tpl">
         <div>
             <div class="ui form">
-                <!-- bloc d'introduction -->
-                <h5 class="ui top attached header">
-                    Introduction
-                </h5>
-                <div class="ui attached segment">
-                    Ce simulateur permet de calculer les mensualités de prêt composé d'un prêt lisseur et de sous-prêt
-                </div>
-
-                <!-- pour chacun des prêts, champs de saisie -->
-                <template v-for="(pret, index) in prets">
-                    <h5 class="ui top attached header" :key="'pret-header-'+index">
-                        Prêt n°{{index+1}}
-                    </h5>
-                    <div class="ui attached segment" :key="'pret-body-'+index">
+                <mon-multistep ref="multiStep">
+                    <mon-step titre="Introduction">
+                        Ce simulateur permet de calculer les mensualités de prêt composé d'un prêt lisseur et de sous-prêt
+                        <div class="ui basic segment">
+                            <button class="ui button" @click="$refs.multiStep.completeCurrentStep()" style="margin-top: .5em;">
+                                Continuer
+                            </button>
+                        </div>
+                    </mon-step>
+                    <mon-step v-for="(pret, index) in prets" :titre="'Prêt n°'+(index+1)" :key="'pret-'+index">
                         <div class="two fields">
                             <div class="field">
                                 <mon-input v-model.number="pret.dureeAnnee"
@@ -44,36 +40,31 @@
                                            mask="entier" />
                             </div>
                         </div>
-                    </div>
-                </template>
-
-                <button class="ui button" @click="addPret" style="margin-top: .5em;">
-                    Ajouter un prêt
-                </button>
-
-                <!-- Saisie email et lancement de la simulation -->
-                <h5 class="ui top attached header">
-                    Votre adresse email svp
-                </h5>
-                <div class="ui attached segment">
-                    <div class="two fields">
-                        <div class="field">
-                            <mon-input v-model="email"
-                                       placeholder="Email"
-                                       mask="email" />
+                        <div class="ui basic segment">
+                            <button class="ui button" @click="addPret(); $refs.multiStep.completeCurrentStep()">
+                                Ajouter un prêt
+                            </button>
+                            <button class="ui button" @click="$refs.multiStep.completeCurrentStep()">
+                                Terminer
+                            </button>
                         </div>
-                    </div>
-                    <button class="ui primary button" @click="simulate">
-                        Simuler
-                    </button>
-                </div>
-
-                <!-- Résultat simulation -->
-                <template v-if="resultat != null">
-                    <h5 class="ui top attached header">
-                        Résultats
-                    </h5>
-                    <div class="ui attached segment">
+                    </mon-step>
+                    <mon-step titre="SVP le mail">
+                        <div class="two fields">
+                            <div class="field">
+                                <mon-input v-model="email"
+                                           placeholder="Email"
+                                           mask="email" />
+                            </div>
+                        </div>
+                        <div class="ui basic segment">
+                            <button class="ui primary button" @click="simulate">
+                                Simuler
+                            </button>
+                        </div>
+                        <div v-if="error != null" style="color: red;">{{error}}</div>
+                    </mon-step>
+                    <mon-step titre="Résultats" v-if="resultat != null">
                         <p>
                             Mensualité : {{resultat.mensualite.toFixed(2)}} €
                         </p>
@@ -83,9 +74,8 @@
                         <p>
                             Ratio : pour 1 € emprunté vous devez rembourser {{resultat.ratio.toFixed(4)}} €
                         </p>
-                    </div>
-                </template>
-            </div>
+                    </mon-step>
+                </mon-multistep>
             </div>
         </div>
     </script>
