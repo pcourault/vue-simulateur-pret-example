@@ -1,0 +1,65 @@
+<?php $title = 'Guide de l\'emprunteur'; ?>
+
+<?php ob_start(); ?>
+<h1 class="ui header">Guide de l'emprunteur</h1>
+<h3 class="ui header">Vous avez déniché la maison ou l'appartement de vos rêves. Mais il va falloir faire preuve d'encore un peu de patience. Entre le moment où vous tombez d'accord sur le prix, la signature de la promesse ou du compromis de vente et celle de l'acte définitif devant notaire, il se passe en moyenne... trois mois !</h3>
+
+<div>
+    <img src="public/img/schopen_approve.jpg" class="ui centered image">
+    <br>
+    <p>Trois mois. C'est le délai moyen qui sépare la signature de la promesse de vente de celle de l'acte authentique. De l'obtention du crédit immobilier au droit de préemption de la mairie, de nombreuses étapes jalonneront votre acquisition. Nous les avons balisées pour vous. Vous connaîtrez ainsi le parcours de l'acquéreur, ce qui vous permettra de bien vous préparer pour réussir votre projet immobilier. Vous saurez notamment à quel moment démarrer la recherche de votre crédit et quelles sont les délais à respecter pour que votre financement soit bouclé dans les temps.</p>
+    <h2 class="">Vente d'un bien immobilier&nbsp;: les avant-contrats</h2>
+    <p>Il existe deux types d'avant-contrat, c'est-à-dire de promesse pour sceller la vente d'un bien immobilier&nbsp;: d'une part le compromis de vente et, d'autre part, la promesse unilatérale de vente.</p>
+    <h3 class="">Le compromis de vente</h3>
+    <p>Le compromis de vente est un engagement bilatéral par lequel le vendeur s'engage à vendre son bien à l'acheteur, qui en retour s'engage à l'acquérir. Toutefois, après avoir signé le compromis, l'acheteur dispose d'un droit de rétractation de dix jours pendant lequel il peut changer d'avis et décider de ne plus acheter.</p>
+    <p>Le compromis de vente contient des conditions suspensives qui peuvent permettre à l'acheteur de ne pas acheter si elles ne se réalisent pas. La vente ne se fera pas si par exemple l'acheteur n'obtient pas son crédit. Lors de la signature du compromis de vente, l'acheteur paie entre 5 et 10% du prix. Une somme que le notaire conserve sur un compte séquestre et qui est débloquée le jour de la signature de l'acte authentique.</p>
+    <h3 class="">La promesse unilatérale de vente</h3>
+    <p>La promesse unilatérale de vente engage le vendeur (le promettant) à vendre son bien à l'acheteur (le bénéficiaire) qui, en revanche, dispose d'une option&nbsp;: celle d'acheter ou de ne pas acheter le bien dans un délai convenu. Cette option est discrétionnaire, c'est-à-dire que l'acheteur peut décider de lever l'option, donc d'acheter ou au contraire de ne pas acheter, sans avoir de motif particulier à donner au vendeur.</p>
+    <p>L'acheteur verse généralement une somme représentant un pourcentage du prix du bien,le plus souvent entre 5 et 10 %. L'acheteur doit se décider avant la fin du délai prévu pour l'option. Soit la vente a effectivement lieu, et l'indemnité d'immobilisation sera déduite du prix de vente au moment de l'acte de vente. Soit l'acheteur décide de ne pas lever l'option et la vente n'a pas lieu. Dans ce cas, en dehors de toute condition suspensive non réalisée, il est prévu dans la promesse que le vendeur puisse conserver la somme versée à titre d'indemnisation.</p>
+    <h2>Délai de rétractation et conditions suspensives</h2>
+    <p>Une fois la promesse ou le compromis de vente signés, l'acheteur dispose d'un délai de rétractation de dix jours. Lorsque ce délai est écoulé, l'acheteur ne peut, en principe, plus changer d'avis. Seule la non-réalisation d'une des conditions suspensives prévues dans le compromis de vente peut encore permettre à l'acheteur de ne plus acheter. Mais de quoi s'agit-il ?</p>
+    <h3>Un délai de rétractation de dix jours</h3>
+    <p>Après la signature de toute promesse de vente (compromis ou promesse unilatérale de vente) concernant l'achat d'un logement, la loi accorde un délai de rétractation à l'acquéreur. Il dispose de sept jours pour revenir sur sa décision, sans avoir à justifier de ses raisons au vendeur. Sept jours pour être vraiment sûr de vouloir s'engager, car passé ce délai, seule la non-réalisation d'une des conditions suspensives contenues dans la promesse lui permettra de ne plus acheter.</p>
+    <p>Lorsque la promesse est signée directement entre particuliers, le vendeur doit adresser un exemplaire en courrier recommandé avec accusé de réception à chacun de ses acheteurs (par exemple à chacun des époux s'il s'agit d'un couple marié). Le délai de dix jours est décompté à partir du lendemain de la première présentation du recommandé.</p>
+    <div class="note">
+        <p>Ce délai de rétractation n'existe que pour les acheteurs. Le vendeur, quant à lui, est engagé dès la signature de la promesse et ne peut donc plus revenir sur sa décision !</p>
+    </div>
+    <h3>Les conditions suspensives</h3>
+    <p>Une fois la promesse de vente signée et le délai de rétractation passé, l'acheteur et le vendeur ne peuvent plus changer d'avis. Toutefois, si vous avez indiqué dans la promesse une condition suspensive, la vente peut encore ne pas avoir lieu. Il s'agit d'une clause qui, comme son nom l'indique, suspend la vente si elle ne réalise pas. La plus répandue concerne l'obtention du crédit immobilier par l'acquéreur. En effet, la vente se fera, à condition qu'il décroche son financement dans le délai prévu dans la promesse. Si la banque rejette le dossier, il s'agit d'une raison suffisante pour que l'acheteur renonce à acheter, sans perdre les 10 % qu'il a versés au vendeur.</p>
+    <div class="important">
+        <p><strong>Crédit immobilier&nbsp;: 45 ou 60 jours pour trouver son financement</strong><br>L'acheteur qui finance son acquisition grâce à un crédit immobilier dispose de 45 jours pour décrocher l'accord de principe de sa banque. La loi Scrivener impose en réalité un délai minimal d'un mois pour l'obtention du prêt, mais en pratique c'est toujours l'usage d'accorder un délai de 45 jours à l'acheteur afin qu'il ait le temps suffisant pour obtenir ses prêts. Il est même prudent, notamment en cas de forte activité du marché immobilier, de prévoir un délai de 60 jours. Attention, ce délai débute dès la signature de la promesse et non à la fin du délai de rétractation de dix jours !</p>
+    </div>
+    <h3>Le droit de préemption urbain</h3>
+    <p>Les collectivités locales disposent d'un droit de préemption urbain sur la plupart des biens mis en vente. C'est-à-dire qu'avant l'acheteur, la mairie est prioritaire si elle veut acheter le logement pour lequel il vient de signer une promesse de vente. Le but ?Planifier des projets urbains, ou encore organiser le maintien ou l'extension d'activités économiques, réaliser de nouveaux équipements collectifs, des locaux de recherche ou d'enseignement supérieur... voire. Il faut donc s'assurer que la ville refuse d'exercer son droit de préemption pour que la signature définitive puisse intervenir. Dans les faits, c'est en réalité le silence de l'administration durant le délai légal de deux mois qui indique que la mairie ne souhaite pas devenir propriétaire.</p>
+    <div class="note">
+        <p>Le prix du bien immobilier et les frais de notaire sont à la charge de l'acheteur. En revanche, les charges de copropriété et la taxe foncière sont souvent partagées par les deux parties.</p>
+    </div>
+    <h2>Payer les frais de notaire</h2>
+    <p>Lors de la promesse de vente, le notaire a consigné une somme d'argent, représentant en général de 5 à 10 % du prix du bien. Au moment de la signature définitive, l'acheteur doit régler le solde du prix auquel s'ajoutent les frais de notaire. Cette somme peut être payée soit par chèque de banque, soit par virement bancaire via le notaire.</p>
+    <p>Concernant les frais de notaire, sachez que le montant versé le jour de la signature définitive est, en réalité, une estimation. Quelques mois après l'acquisition, un état détaillé vous sera envoyé, accompagné du remboursement de la différence entre la provision déjà payée et le coût réel des frais de notaire.</p>
+    <h3>Les impôts locaux</h3>
+    <p>Qui doit payer la taxe foncière ? Normalement, elle est due par toute personne propriétaire d'un logement au 1er janvier de l'année. Si vous achetez votre logement en cours d'année, c'est par conséquent le vendeur qui en est redevable. Toutefois, si c'est le vendeur qui doit la régler aux impôts, les promesses contiennent toujours une clause prévoyant un partage de la taxe foncière entre le vendeur et l'acheteur au <i>prorata temporis</i>.</p>
+    <p>Il s'agit «&nbsp;d'un arrangement&nbsp;», inscrit dans la promesse et l'acte authentique. Par exemple, si la signature intervient le 1er septembre, la taxe foncière peut être répartie au prorata temporis&nbsp;: 8/12 de la somme à la charge du vendeur (janvier à août = 8 mois), et 4/12 à la charge de l'acheteur (septembre à décembre = 4 mois).</p>
+    <div class="note">
+        <p>Attention, la taxe foncière varie fortement d'une ville à l'autre. Demandez au vendeur son montant ou son dernier avis d'imposition avant d'acheter pour en connaître le montant !</p>
+    </div>
+    <h2>Les charges de copropriété</h2>
+    <p>Qui paie les charges de copropriété ? Aujourd'hui, la règle du<i> prorata temporis</i> ne s'applique plus. La loi a tranché pour une solution plus simple&nbsp;: c'est le propriétaire du logement, au moment de l'appel de fond, qui doit s'acquitter du paiement. Pour les charges prévisionnelles, qui sont en principe dues au 1er jour du trimestre, c'est celui qui est copropriétaire à ce moment-là qui en est redevable pour tout le trimestre.</p>
+    <p>Toutefois, vous pouvez prévoir une répartition au <i>prorata temporis</i> au moment de la signature du compromis de vente. Si l'acte de vente est signé le 30 avril, c'est le vendeur qui règle dès le 1er avril l'intégralité de l'appel de fonds du 2e trimestre au syndic. Si vous avez pris soin d'insérer une clause de répartition des charges dans le compromis de vente au prorata temporis, l'acheteur va rembourser au moment de la signature de l'acte de vente les 2/3 du montant de la provision de charges de ce trimestre.</p>
+    <p>En ce qui concerne les travaux votés en assemblée générale, c'est celui qui est copropriétaire au moment des appels de fonds qui en est redevable à l'égard du syndic. C'est pourquoi il faut toujours penser à demander les derniers procès-verbaux des assemblées générales au vendeur pour pouvoir anticiper sur les travaux à venir et éviter les mauvaises surprises.</p>
+    <div class="note">
+        <p>Pour en savoir plus sur la répartition des travaux et des charges de la copropriété, lire notre dossier&nbsp;: Acheter en copropriété&nbsp;: qui paie quoi ?</p>
+    </div>
+    <h2>Immobilier&nbsp;: signer l'acte authentique</h2>
+    <p>Le grand jour est enfin arrivé ! Vous allez signer l'acte définitif de vente de votre bien immobilier. Une formalité qui s'effectue toujours devant notaire. Le choix du notaire est libre. Vous pouvez choisir le vôtre même s'il n'habite pas la région. En effet, les notaires peuvent réaliser des ventes partout en France.</p>
+    <p>Si les vendeurs vous proposent le leur, vous pouvez décider d'avoir recours aux deux notaires. C'est une pratique courante qui permet à chacun de pouvoir faire appel à son notaire. Cela n'occasionne pas de frais supplémentaires puisque dans ce cas il est prévu un partage des émoluments entre les deux notaires selon des règles pré-établies. Vous pouvez aussi décider de faire appel à un seul notaire, soit celui de l'acheteur, soit celui du vendeur.</p>
+    <h3>Lecture et signature de l'acte authentique de vente</h3>
+    <p>Le jour J, vous allez vous rendre chez le notaire pour la signature de l'acte authentique. Ce professionnel commencera par lire l'intégralité de l'acte de vente à voix haute devant l'acheteur et le vendeur. Soyez attentif, et vérifiez que tout ce qui est porté dans l'acte authentique correspond bien à tout ce qui a été convenu lors de la promesse de vente. Si vous remarquez des petites imprécisions, c'est le moment de les signaler pour pouvoir les rectifier. Et si vous avez des questions, n'hésitez pas à les poser avant de signer !</p>
+    <p>C'est lors de la signature de l'acte authentique de vente que l'acheteur doit régler le prix indiqué dans le contrat de vente ou le solde lorsqu'il s'est déjà acquitté d'une indemnité d'immobilisation.</p>
+    <p>Sauf cas particulier, c'est lors de la signature de l'acte authentique que l'acheteur reçoit les clefs de sa nouvelle propriété. Une fois signé l'acte de vente, en sortant de chez le notaire, l'acheteur peut donc se rendre immédiatement dans son nouveau logement et en disposer librement ! Quant au titre de propriété, il parviendra à l'acquéreur plus tard. Comptez entre six mois et un an.</p>
+</div>
+
+
+<?php $content = ob_get_clean(); ?>
+
+<?php require('template.php'); ?>
