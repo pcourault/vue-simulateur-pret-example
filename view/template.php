@@ -11,6 +11,7 @@
   <link href="public/style.css" rel="stylesheet" />
   <link href="public/animate.min.css" rel="stylesheet" />
   <script src="public/script.js"></script>
+  <script src="//unpkg.com/vue@2.6.10/dist/vue.js"></script>
 </head>
 
 <body>
